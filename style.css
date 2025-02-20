@@ -155,4 +155,39 @@
   .register-link a:hover {
     color: #00ccff;
   }
+
+
+/*--------------- Extra button ---------------*/
+
+.extra-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+    margin-top: 10px; /* Space above the buttons */
+}
+
+.custom-button {
+    background-color: #28a745; /* Green color similar to login button */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.telegram-btn {
+    background-color: #0088cc; /* Telegram blue */
+}
+
+.telegram-btn:hover {
+    background-color: #0077b5; /* Darker blue on hover */
+}
+
   /* ---------- Embedded CSS ends here ---------- */
