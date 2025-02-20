@@ -14,7 +14,8 @@
   body {
     /* Provide a background image or gradient */
     background: url("https://assets.freecodes.in/bg.jpg") no-repeat center center;
-    background-size: cover;
+   /* background-size: cover;*/
+      background-size: cover !important;
     
     /* Alternatively, you could use a gradient:
        background: linear-gradient(to right, #e96443, #904e95);
