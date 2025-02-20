@@ -13,7 +13,7 @@
   /* Background styling */
   body {
     /* Provide a background image or gradient */
-    background: url("https://assets.freecodes.in/bg.jpg") no-repeat center center;
+    background: url("https://assets.freecodes.in/bg.jpg") no-repeat center center !important;
    /* background-size: cover;*/
       background-size: cover !important;
     
