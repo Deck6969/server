@@ -1,0 +1,157 @@
+/* ---------- Embedded CSS starts here ---------- */
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif; /* or any other font you prefer */
+  }
+  
+  /* Background styling */
+  body {
+    /* Provide a background image or gradient */
+    background: url("https://assets.freecodes.in/bg.jpg") no-repeat center center;
+    background-size: cover;
+    
+    /* Alternatively, you could use a gradient:
+       background: linear-gradient(to right, #e96443, #904e95);
+    */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  /* Container for the login box */
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgb(255 255 255 / 60%); /* Semi-transparent black */
+    backdrop-filter: blur(4px);        /* optional blur effect */
+    border-radius: 10px;
+    padding: 2rem;
+    color: #3d3a3a;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    text-align: center;
+  }
+  
+  /* Flash message styling */
+  .flash-msg {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .flash-msg.success {
+    background: rgb(195 195 195 / 20%);
+  }
+  .flash-msg.error {
+    background: rgb(195 195 195 / 20%);
+  }
+  
+  /* Title */
+  .login-container h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8em;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  /* Form group */
+  .form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+    text-align: left; /* So labels/inputs align on the left */
+  }
+  
+  .form-group label {
+    position: absolute;
+    top: 50%;
+    left: 0.75rem;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 1.2em;
+  }
+  
+  /* Input styles */
+  .form-group input {
+    width: 100%;
+    padding: 0.75rem 0.75rem 0.75rem 2.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.2);
+    color: #858383;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .form-group input::placeholder {
+    color: #bbb;
+  }
+  
+  .form-group input:hover,
+  .form-group input:focus {
+    border-color: #ccc;
+  }
+  
+  /* Extra options: checkbox + forgot password link */
+  .extra-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    color: #ddd;
+    font-size: 0.9rem;
+  }
+  
+  .extra-options a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .extra-options a:hover {
+    color: #00ccff;
+    text-decoration: underline;
+  }
+  
+  /* Login button */
+  .login-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background: #38b53d;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-btn:hover {
+    background: #1f7d23;
+  }
+  
+  /* Register link paragraph */
+  .register-link {
+    margin-top: 1rem;
+    font-size: 0.9em;
+  }
+  
+  .register-link a {
+    color: #fff;
+    text-decoration: underline;
+    transition: color 0.2s;
+  }
+  
+  .register-link a:hover {
+    color: #00ccff;
+  }
+  /* ---------- Embedded CSS ends here ---------- */
