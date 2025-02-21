@@ -3340,7 +3340,7 @@ fieldset[disabled] .button {
 .table th.is-selected,
 .table tr.is-selected {
 	background-color: #3f51b5;
-	color: #fff
+	color: #ffffff29;
 }
 .table th:not([align]) {
 	text-align: left
