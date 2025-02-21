@@ -443,10 +443,10 @@ code {
 body {
 	font-size: 1em;
 	line-height: 1.5;
-	color: #4a4a4a
+	color: #4a4a4a;
 }
 a {
-	color: #2196f3;
+	color: #FFC107;
 	cursor: pointer;
 	text-decoration: none
 }
@@ -1012,7 +1012,7 @@ a.has-text-danger:hover {
 	background-color: #4a4a4a!important
 }
 .has-text-grey {
-	color: #7a7a7a!important
+	color: #ffffff!important
 }
 .has-background-grey {
 	background-color: #7a7a7a!important
@@ -2047,7 +2047,7 @@ fieldset[disabled] .button.is-primary.is-inverted.is-outlined {
 .button.is-link.is-hovered,
 .button.is-link:hover {
 	border-color: transparent;
-	color: #fff
+	color: #898989;
 }
 .button.is-link.is-focused,
 .button.is-link:focus {
@@ -3083,7 +3083,7 @@ fieldset[disabled] .button {
 	color: #fff
 }
 .notification.is-success {
-	background-color: #4caf50;
+	background-color: #ffffff17;
 	color: #fff
 }
 .notification.is-warning {
@@ -3091,7 +3091,7 @@ fieldset[disabled] .button {
 	color: rgba(0, 0, 0, .7)
 }
 .notification.is-danger {
-	background-color: #f44336;
+	background-color: #d957d1;
 	color: #fff
 }
 .progress {
@@ -3340,7 +3340,7 @@ fieldset[disabled] .button {
 .table th.is-selected,
 .table tr.is-selected {
 	background-color: #3f51b5;
-	color: #ffffff29;
+	color: #fff
 }
 .table th:not([align]) {
 	text-align: left
@@ -3679,7 +3679,7 @@ a.tag:hover {
 .input {
 	background-color: #ffffff40;
 	border-radius: 0;
-	color: #363636
+	color: #ffffff;
 }
 .textarea {
 	border-color: #dbdbdb;
@@ -4625,7 +4625,7 @@ fieldset[disabled] .radio {
 	font-size: 14px
 }
 .label {
-	color: #080808ba;
+	color: #e0fcffb8;
 	display: block;
 	font-size: 1rem;
 	font-weight: 700
@@ -5340,7 +5340,7 @@ a.list-item {
 .message-body code,
 .message-body pre,
 .message.is-white {
-	background-color: #fff
+	background-color: #ffffff17;
 }
 .message.is-white .message-header {
 	background-color: #ffffff38;
@@ -6599,7 +6599,7 @@ a.navbar-item:hover {
 .pagination-next,
 .pagination-previous {
 	border-color: #dbdbdb;
-	color: #363636;
+	color: #ddd9d9;
 	min-width: 2.25em
 }
 .pagination-link:hover,
@@ -6807,7 +6807,7 @@ label.panel-block:hover {
 	display: flex
 }
 .tabs a {
-	color: #4a4a4a;
+	color: #ffffff;
 	margin-bottom: -1px;
 	padding: .5em 1em;
 	vertical-align: top;
@@ -6822,7 +6822,7 @@ label.panel-block:hover {
 }
 .tabs li.is-active a {
 	border-bottom-color: #2196f3;
-	color: #2196f3
+	color: #ffc744;
 }
 .tabs ul {
 	flex-grow: 1;
