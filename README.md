@@ -1,68 +1,96 @@
-# 🚀 Project Name
-
-![Project Logo](https://via.placeholder.com/150)
-
-## 📌 About
-
-**Project Name** is a [brief description of your project]. This project aims to [mention the purpose and key functionality].
-
-## 🎯 Features
-
-- ✅ Feature 1
-- ✅ Feature 2
-- ✅ Feature 3
-- ✅ Feature 4
-
-## 🏗️ Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/yourproject.git
-
-# Navigate into the project directory
-cd yourproject
-
-# Install dependencies
-npm install
-
-# Run the application
-npm start
-```
-
-## 🛠️ Technologies Used
-
-- 🟢 Technology 1
-- 🔵 Technology 2
-- 🟠 Technology 3
-- 🟣 Technology 4
-
-## 📖 Usage
-
-1. Step 1
-2. Step 2
-3. Step 3
-
-## 🎨 Screenshots
-
-![Screenshot 1](https://via.placeholder.com/600x400)
-![Screenshot 2](https://via.placeholder.com/600x400)
-
-## 🤝 Contributing
-
-Contributions are always welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin feature-branch`
-5. Open a Pull Request
-
-## 📜 License
-
-This project is licensed under the [License Name] License. See `LICENSE` for more details.
-
-## 📬 Contact
-
-📧 Email: your.email@example.com  
-🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
-📂 GitHub: [yourusername](https://github.com/yourusername)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Your Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        #home {
+            background: #007BFF;
+            color: white;
+            padding: 100px 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Discover Amazing Things</h2>
+        <p>We provide top-notch services to cater to your needs.</p>
+        <a href="#services" class="btn">Explore Services</a>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our company and values.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Check out the wide range of services we offer.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch for more information.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Your Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
