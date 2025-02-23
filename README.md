@@ -6,57 +6,74 @@
     <title>Home - Your Website</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            text-align: center;
         }
         header {
-            background: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
+            background: #222;
+            color: white;
+            padding: 20px 0;
         }
         nav ul {
             list-style: none;
             padding: 0;
+            display: flex;
+            justify-content: center;
         }
         nav ul li {
-            display: inline;
             margin: 0 15px;
         }
         nav ul li a {
-            color: #fff;
+            color: white;
             text-decoration: none;
             font-size: 18px;
+            transition: color 0.3s;
         }
-        section {
-            padding: 50px;
-            text-align: center;
+        nav ul li a:hover {
+            color: #ff6600;
         }
-        #home {
-            background: #007BFF;
+        .hero {
+            background: linear-gradient(135deg, #007BFF, #0056b3);
             color: white;
             padding: 100px 20px;
         }
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
         .btn {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 12px 25px;
             background: #ff6600;
             color: white;
             text-decoration: none;
+            font-size: 18px;
             border-radius: 5px;
-            margin-top: 10px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #cc5200;
+        }
+        section {
+            padding: 80px 20px;
         }
         footer {
-            background: #333;
+            background: #222;
             color: white;
-            text-align: center;
             padding: 20px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -72,7 +89,7 @@
             </ul>
         </nav>
     </header>
-    <section id="home">
+    <section class="hero" id="home">
         <h2>Discover Amazing Things</h2>
         <p>We provide top-notch services to cater to your needs.</p>
         <a href="#services" class="btn">Explore Services</a>
